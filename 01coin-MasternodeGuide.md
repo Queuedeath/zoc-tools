@@ -258,7 +258,7 @@ You now have 01coin binaries installed on your VPS. Congrats! Since you must now
 
 Now open your 01coin configuration file:
 
-```nano zeroone.conf```
+```nano ~/.zeroonecore/zeroone.conf```
 
 In that file, enter the following information. Substitute the information in parantheses with the information relevant to your own server (but don't use parantheses). Use only upper- and lower-case letters and numbers in the rpcuser and rpcpassword fields, as not all symbols and special characters are compatible.
 
@@ -316,7 +316,7 @@ The next step is to install 01coin Sentinel, which is a mandatory requirement fo
 
 ### 01coin Sentinel installation: Script method
 
-You can take a shortcut by using a prepared script to install be doing:
+You can take a shortcut by using a prepared script to install by doing:
 
 ```wget -O sentinel-one-line-insaller.sh https://git.io/fx0e2 && sudo chmod +x sentinel-one-line-insaller.sh && sudo sh sentinel-one-line-insaller.sh```
 
